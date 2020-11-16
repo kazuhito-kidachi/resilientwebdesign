@@ -119,12 +119,12 @@ As tempting as this siren call is, it obfuscates the true nature of the ever-cha
 
 > It is far better to grasp the universe as it really is than to persist in delusion, however satisfying and reassuring.
 
-##The future
+##未来
 
-I wish I could predict the future. The only thing that I can predict for sure is that things are going to change.
+未来を予測できたらいいなと思いますが、確実に予測できるのはただひとつ、物事は変化し続けるということです。
 
-I don't know what kind of devices people will be using on the web. I don't know what kind of software people will be using on the web.
+人々がどのようなデバイスを使ってWebにアクセスすることになるか、Web上でどんなソフトウェアを使うのか、私にはわかりません。
 
-The future, like the web, is unknown.
+未来は、Webがそうであるように、未知の存在です。
 
-The future, like the web, will be written by you.
+未来は、Webがそうであるように、あなたが紡ぐものです。
