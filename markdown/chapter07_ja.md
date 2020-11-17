@@ -91,27 +91,27 @@ That isn't cause for despair; it's cause for celebration. We could either fight 
 
 That first step is the most important: acknowledging and embracing unpredictability. That is the driving force behind resilient web design. The best way to be future-friendly is to be backwards-compatible.
 
-###Assumptions
+###仮定
 
-"We demand rigidly-defined areas of doubt and uncertainty!" cried the philosophers in Douglas Adams' _Hitchhiker's Guide To The Galaxy_.
+ダグラス・アダムズの著書『銀河ヒッチハイク・ガイド』のなかで、哲学者たちは叫びました。「我々は疑心暗鬼を厳格に定義することを求める！」
 
 As pattern-matching machines, we are quick to identify trends and codify them into assumptions. Here are just some assumptions that were made over the history of web design:
 
-* Everyone has a monitor that is 640 pixels wide.
-* Everyone has the Flash plugin installed.
-* Everyone has a monitor that is 800 pixels wide.
-* Everyone has a mouse and a keyboard.
-* Everyone has a monitor that is 1024 pixels wide.
-* Everyone has a fast internet connection.
+* 誰もが640ピクセル幅のモニターを使っている
+* 誰もがFlashのプラグインをインストールしている
+* 誰もが800ピクセル幅のモニターを使っている
+* 誰もがマウスとキーボードを使っている
+* 誰もが1024ピクセル幅のモニターを使っている
+* 誰もがインターネットに高速で接続している
 
 The proliferation of mobile devices blew those assumptions out of the water. The rise of mobile didn't create new uncertainties—instead it shone a light on the uncertainties that already existed.
 
 That should have been a valuable lesson. But before too long the old assumptions were replaced with new ones:
 
-* There are some activities that people will never want to do on their phones.
-* Every phone has a touch screen.
-* Everyone using a phone is in a hurry.
-* Every browser on every phone supports JavaScript.
+* スマートフォン上で行おうとは決して思わないことが存在する
+* あらゆるスマートフォンがタッチスクリーンを備えている
+* 誰もが忙しなくスマートフォンを使っている
+* すべてのスマートフォン上のあらゆるブラウザーでJavaScriptが機能する
 
 Assumptions are beguiling. If only we could agree on certain boundaries, then wouldn't web design be so much easier to control?
 
