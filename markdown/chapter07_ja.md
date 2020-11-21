@@ -93,7 +93,7 @@ That first step is the most important: acknowledging and embracing unpredictabil
 
 ###前提
 
-ダグラス・アダムズの著書『銀河ヒッチハイク・ガイド』のなかで、哲学者たちは叫びました。「我々は疑心暗鬼を厳格に定義することを求める！」
+Douglas Adamsの著書『Hitchhiker's Guide To The Galaxy（邦題：銀河ヒッチハイク・ガイド）』のなかで、哲学者たちは叫びました。「我々は疑心暗鬼を厳格に定義することを求める！」
 
 パターンマッチングを行う機械のごとく、私たちはトレンドをいち早く察知し、それを前提にコーディングします。Webデザインの歴史において、過去に置かれた前提を少しばかり紹介します：
 
