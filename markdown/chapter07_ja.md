@@ -91,11 +91,11 @@ That isn't cause for despair; it's cause for celebration. We could either fight 
 
 That first step is the most important: acknowledging and embracing unpredictability. That is the driving force behind resilient web design. The best way to be future-friendly is to be backwards-compatible.
 
-###仮定
+###前提
 
 ダグラス・アダムズの著書『銀河ヒッチハイク・ガイド』のなかで、哲学者たちは叫びました。「我々は疑心暗鬼を厳格に定義することを求める！」
 
-As pattern-matching machines, we are quick to identify trends and codify them into assumptions. Here are just some assumptions that were made over the history of web design:
+パターンマッチングを行う機械のごとく、私たちはトレンドをいち早く察知し、それを前提にコーディングします。Webデザインの歴史において、過去に置かれた前提を少しばかり紹介します：
 
 * 誰もが640ピクセル幅のモニターを使っている
 * 誰もがFlashのプラグインをインストールしている
@@ -104,20 +104,20 @@ As pattern-matching machines, we are quick to identify trends and codify them in
 * 誰もが1024ピクセル幅のモニターを使っている
 * 誰もがインターネットに高速で接続している
 
-The proliferation of mobile devices blew those assumptions out of the water. The rise of mobile didn't create new uncertainties—instead it shone a light on the uncertainties that already existed.
+モバイルデバイスの普及は、こうした前提を覆すものでした。モバイルの台頭は、新たに不確実性を生み出したわけではなく、既に存在していた不確実性に光を当てたのです。
 
-That should have been a valuable lesson. But before too long the old assumptions were replaced with new ones:
+それは価値ある教訓となるはずでした。しかし、いつの間にか、古い前提は新しい前提に置き換えられました：
 
 * スマートフォン上で行おうとは決して思わないことが存在する
 * あらゆるスマートフォンがタッチスクリーンを備えている
 * 誰もが忙しなくスマートフォンを使っている
 * すべてのスマートフォン上のあらゆるブラウザーでJavaScriptが機能する
 
-Assumptions are beguiling. If only we could agree on certain boundaries, then wouldn't web design be so much easier to control?
+前提とは魅力的なものです。もしも、ある種の前提に同意できたなら、Webデザインはどれほど簡単に扱える存在になっていたことでしょう？
 
-As tempting as this siren call is, it obfuscates the true nature of the ever-changing uncertain web. Carl Sagan put it best in his book _The Demon-Haunted World_:
+そのサイレンコールは魅力的であると同時に、絶えず変化し続ける不確実なウェブの本質を捉えにくくするものです。Carl Saganは、著書『The Demon-Haunted World（邦題：カール・セーガン 科学と悪霊を語る）』のなかで、次のように述べています：
 
-> It is far better to grasp the universe as it really is than to persist in delusion, however satisfying and reassuring.
+> どれだけ満足感や安心感が得られようとも、妄想に固執するより宇宙をありのままに把握したほうが、はるかに素晴らしいことです。
 
 ##未来
 
