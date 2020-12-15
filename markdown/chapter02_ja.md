@@ -62,9 +62,9 @@ Another technique used the TABLE element. This element—along with its children
 
 These were hacks; clever solutions to tricky problems. But they had unfortunate consequences. Designers were treating HTML as a tool for the appearance of content instead of a language for describing the meaning of content. CSS was a solution to this problem, if only designers could be convinced to use it.
 
-###Browser wars
+###ブラウザ戦争
 
-One of the reasons why web designers weren't using CSS was the lack of browser support. Back then there were two major browsers competing for the soul of the web: Microsoft Internet Explorer and Netscape Navigator. They were incompatible by design. One browser would invent a new HTML element or attribute. The other browser would invent their own separate element or attribute to do exactly the same thing.
+WebデザイナーがCSSを使わなかった理由のひとつに、ブラウザのサポート不足がありました。かつて、2つのメジャーなブラウザが、Webの主導権を争っていました。Microsoft Internet ExplorerとNetscape Navigatorです。デザイン的に、両者は相容れない存在でした。一方のブラ座が新しい要素や属性を作ったとします。するともう一方のブラウザは、まったく同じ目的において、異なる独自の要素や属性を作るのです。
 
 Perhaps the thinking behind this strategy was that web designers would have to choose which proprietary features they were going to get behind, like children being forced to choose between parents. In reality web designers had little choice but to write for both browsers which meant doing the twice the work.
 
