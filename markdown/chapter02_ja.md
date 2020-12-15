@@ -64,7 +64,7 @@ These were hacks; clever solutions to tricky problems. But they had unfortunate 
 
 ###ブラウザ戦争
 
-WebデザイナーがCSSを使わなかった理由のひとつに、ブラウザのサポート不足がありました。かつて、2つのメジャーなブラウザが、Webの主導権を争っていました。Microsoft Internet ExplorerとNetscape Navigatorです。デザイン的に、両者は相容れない存在でした。一方のブラ座が新しい要素や属性を作ったとします。するともう一方のブラウザは、まったく同じ目的において、異なる独自の要素や属性を作るのです。
+WebデザイナーがCSSを使わなかった理由のひとつに、ブラウザのサポート不足がありました。かつて2つのメジャーなブラウザが、Webの主導権を争っていました。Microsoft Internet ExplorerとNetscape Navigatorです。両者はデザイン的に相容れない存在でした。一方のブラウザが、新しい要素や属性を作ったとします。するともう一方のブラウザは、まったく同じ目的において、異なる独自の要素や属性を作ったのです。
 
 Perhaps the thinking behind this strategy was that web designers would have to choose which proprietary features they were going to get behind, like children being forced to choose between parents. In reality web designers had little choice but to write for both browsers which meant doing the twice the work.
 
