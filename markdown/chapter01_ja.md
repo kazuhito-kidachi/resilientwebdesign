@@ -2,11 +2,11 @@
 
 人類の文明の歴史とは、努力の積み重ねという物語です。それぞれの世代は、先人の仕事の上に構築されています。時には物事が後戻りすることもあるでしょう。時には行き止まりにぶつかることもあるでしょう。それでも、私たちは努力を続けています。私たちという種は少しずつ進歩しています。その進歩が少しずつであろうと大きな飛躍であろうと、それは常に私たちより前の人々の業績の上に成り立っているのです。
 
-Nowhere is this layered nature of progress more apparent than in the history of technology. Even the most dramatic bounds in technological advancement are only possible when there is some groundwork to build upon.
+技術の歴史ほど、進歩の積み重ねが明らかなものはありません。最も劇的な技術の進歩でさえ、その土台があって初めて可能となるのです。
 
-Gutenberg's printing press would not have been invented if it weren't for the work already done in creating the screw press used for winemaking. Technologies aren't created in isolation. They are imprinted with the ghosts of their past.
+ワインの醸造に用いられるスクリュープレスの開発が先行して行われていなければ、Gutenbergの印刷機が発明されることは無かったでしょう。技術は、単独で生まれることはありません。技術には、その過去の亡霊が刷り込まれているのです。
 
-The layout of the QWERTY keyboard for your computer—and its software equivalent on your phone—is an echo of the design of the first generation of typewriters. That arrangement of keys was chosen to reduce the chances of mechanical pieces of metal clashing as they sprang forward to leave their mark on the paper.
+ハードウェアキーボードや、スマートフォン上のソフトウェアキーボードに見られるQWERTY配列キーボードは、第一世代タイプライターのデザインを模倣したものです。キーの配置は、金属でできた機械部品が飛び出して紙に跡を残す可能性を減らすために考案されました。
 
 The hands on a clock face move in a clockwise direction only because that's the direction that the shadow cast by a sundial moves over the course of a day in the northern hemisphere. Had history turned out differently, with the civilisation of the southern hemisphere in the ascendent, then the hands on our clocks would today move in the opposite direction. As for why those clocks carve out the time in periods of 24 hours, each with 60 minutes, with each minute having 60 seconds, that's thanks to an ancient Sumerian civilisation. They hit upon using the number 60 as their base for counting and commerce. It's the lowest number that can be equally divided by the first six numbers. That sexagesimal way of counting is still with us today in the hours, minutes, and seconds that we use as conceptual models for subdividing one rotation of our planet.
 
