@@ -1,6 +1,6 @@
 #Chapter 1: Foundations
 
-The history of human civilisation is a tale of cumulative effort. Each generation builds upon the work of their forebears. Sometimes the work takes a backward step. Sometimes we wander down dead ends. But we struggle on. Bit by bit our species makes progress. Whether the progress is incremental or a huge leap forward, it is always borne upon the accomplishments of those who came before us.
+人類の文明の歴史とは、努力の積み重ねという物語です。それぞれの世代は、先人の仕事の上に構築されています。時には物事が後戻りすることもあるでしょう。時には行き止まりにぶつかることもあるでしょう。それでも、私たちは努力を続けています。私たちという種は少しずつ進歩しています。その進歩が少しずつであろうと大きな飛躍であろうと、それは常に私たちより前の人々の業績の上に成り立っているのです。
 
 Nowhere is this layered nature of progress more apparent than in the history of technology. Even the most dramatic bounds in technological advancement are only possible when there is some groundwork to build upon.
 
