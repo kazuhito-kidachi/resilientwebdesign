@@ -1,4 +1,4 @@
-#Chapter 4: Languages
+# 第4章：言語
 
 Jon Postel was one of the engineers working on the ARPANET, the precursor to the internet. He wanted to make sure that the packets—or "datagrams"—being shuttled around the network were delivered in the most efficient way. He came to realise that a lax approach to errors was crucial to effective packet switching.
 

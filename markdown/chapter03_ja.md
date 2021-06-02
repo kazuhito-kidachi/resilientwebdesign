@@ -1,4 +1,4 @@
-#Chapter 3: Visions
+# 第3章：展望
 
 Design adds clarity. Using colour, typography, hierarchy, contrast, and all the other tools at their disposal, designers can take an unordered jumble of information and turn it into something that's easy to use and pleasurable to behold. Like life itself, design can win a small victory against the entropy of the universe, creating pockets of order from the raw materials of chaos.
 
@@ -22,7 +22,7 @@ Those TABLE layouts later became CSS layouts, but the fundamental thinking remai
 
 There's a problem with this approach. Whereas a piece of paper or vellum has a fixed ratio, a browser window could be any size. There's no way for a web designer to know in advance what size any particular person's browser window will be.
 
-Designers had grown accustomed to knowing the dimensions of the rectangles they were designing within. The web removed that constraint. 
+Designers had grown accustomed to knowing the dimensions of the rectangles they were designing within. The web removed that constraint.
 
 ###If it ain't fixed, don't break it
 
@@ -187,11 +187,10 @@ Relinquishing control does not mean relinquishing quality. Quite the opposite. I
 
 Texan web designer Trent Walton was initially wary of responsive design, but soon realised that it was a more honest, authentic approach than creating fixed-width Photoshop mock-ups:
 
-> My love for responsive centers around the idea that my website will meet you wherever you are—from mobile to full-blown desktop and anywhere in between. 
+> My love for responsive centers around the idea that my website will meet you wherever you are—from mobile to full-blown desktop and anywhere in between.
 
 For years, web design was dictated by the designer. The user had no choice but to accommodate the site's demand for a screen of a certain size or a network connection of a certain speed. Now, web design can be a conversation between the designer and the user. Now, web design can reflect the underlying principles of the web itself.
 
 On the twentieth anniversary of the World Wide Web, Tim Berners-Lee wrote an article for Scientific American in which he reiterated those underlying principles:
 
 > The primary design principle underlying the Web’s usefulness and growth is universality. The Web should be usable by people with disabilities. It must work with any form of information, be it a document or a point of data, and information of any quality—from a silly tweet to a scholarly paper. And it should be accessible from any kind of hardware that can connect to the Internet: stationary or mobile, small screen or large.
-

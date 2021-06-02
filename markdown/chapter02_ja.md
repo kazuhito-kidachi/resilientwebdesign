@@ -1,4 +1,4 @@
-#Chapter 2: Materials
+# 第2章：道具
 
 At the risk of teaching grandmother to suck eggs, I'd like you to think about what happens when a browser parses an HTML element. Take, for example, a paragraph element with some text inside it. There's an opening P tag, a closing P tag, and between those tags, there's the text.
 

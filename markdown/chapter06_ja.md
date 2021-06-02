@@ -1,4 +1,4 @@
-#Chapter 6: Steps
+# 第6章：段階
 
 "Always design a thing by considering it in its next larger context", said the Finnish architect Eliel Saarinen. "A chair in a room, a room in a house, a house in an environment, an environment in a city plan."
 

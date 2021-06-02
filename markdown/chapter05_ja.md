@@ -1,4 +1,4 @@
-#Chapter 5: Layers
+# 第5章：階層
 
 In his classic book _How Buildings Learn_ Stewart Brand highlights an idea by the British architect Frank Duffy:
 
@@ -88,7 +88,7 @@ Some designers have misunderstood progressive enhancement to mean that *all* fun
 
 Scott worked on the responsive website for the Boston Globe newspaper. His colleague at the time, Mat Marquis, noted:
 
-If a website is built using progressive enhancement then it's okay if a particular feature isn't supported or fails to load: Ajax, geolocation, whatever. As long as the core functionality is still available, web designers don't need to bend over backwards trying to crowbar support for newer features into older browsers. 
+If a website is built using progressive enhancement then it's okay if a particular feature isn't supported or fails to load: Ajax, geolocation, whatever. As long as the core functionality is still available, web designers don't need to bend over backwards trying to crowbar support for newer features into older browsers.
 
 You also get a website that's more resilient to JavaScript's error-handling model. Mat Marquis worked alongside Scott Jehl on the responsive website for the Boston Globe. He noted:
 

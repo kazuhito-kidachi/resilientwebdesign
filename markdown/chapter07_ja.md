@@ -1,4 +1,4 @@
-#Chapter 7: Challenges
+# 第7章：挑戦
 
 The sixth annual conference on hypertext took place in San Antonio, Texas in December 1991. Tim Berners-Lee's World Wide Web project was starting to take shape then. Thinking the conference organisers and attendees would appreciate the project, he submitted a proposal to Hypertext '91. The proposal was rejected.
 
@@ -59,39 +59,39 @@ Demonstrating the benefits of progressive enhancement can be tricky. Because the
 
 For that same reason, you can start to implement this layered approach without having to convince your colleagues, your boss, or your clients. If they don't care, then they also won't notice. As Grace Hopper also said, "it's easier to ask forgiveness than it is to get permission."
 
-###Tools
+### ツール
 
-Changing a workflow or a process can be particularly challenging if it clashes with the tools being used. A tool is supposed to help people get their work done in a more efficient way. The tool should be subservient to the workflow. All too often, tools instead dictate a preferred way of working. Whether it's WYSIWYG editors, graphic design programs, content management systems, or JavaScript frameworks, tools inevitably influence workflows.
+ワークフローやプロセスの変更は、それぞれにおいて使用を前提とするツールと衝突する場合は特に、困難を伴います。ツールは、人々がより効率的な方法で仕事をする手助けとなるものです。ツールは、ワークフローに従属すべきものです。往々にして、ツールが作業方法を決定づけることがあります。WYSIWYGエディタ、グラフィック・デザイン・プログラム、コンテンツ・マネジメント・システム、JavaScriptフレームワークといったツールがワークフローに影響を与えることは、避けられません。
 
-If you are aware of that influence, and you can recognise it, then you are in a better position to pick and choose the tools that will work best for you. There are many factors that play into the choice of frameworks, for example: "Is it well-written?", "Does it have an active community behind it?", "Does it have clear documentation?". But perhaps the most important question to ask is, "Does its approach match my own philosophy?"
+その影響に気づき、認識することができれば、自分に最適なツールを選べるようになります。コードは上手に書かれているか？、開発コミュニティは活発か？、明確なドキュメントは付属しているか？　など、フレームワークの選択にはさまざまな要素があります。しかし、おそらく最も重要なのは、そのフレームワークのアプローチは自身の哲学に合っているか？　という問いです。
 
-Every framework has a philosophy because every framework was written by people. If your philosophy aligns with that of the framework, then it will help you work more efficiently. But if your philosophy clashes with that of the framework, you will be fighting it every step of the way. It might even be tempting to just give up and let the framework dictate your workflow. Then the tail would be wagging the dog.
+人が作ったものである以上、フレームワークにはそれぞれの哲学があります。あなたの哲学がフレームワークの哲学と一致するなら、あなたの仕事はより効率的なものとなるでしょう。しかし、あなたとフレームワークの哲学が衝突するようでは、あらゆる段階であなたはフレームワークと戦うことになります。諦めて、ワークフローをフレームワークに委ねてしまいたくなるかもしれません。そうなったら本末転倒です。
 
-Choose your tools wisely. It would be a terrible shame if you abandoned the resilient approach to web design because of a difference of opinion with a piece of software.
+ツールは賢く選びましょう。ソフトウェアとの見解の違いによって、Webデザインに対し回復力あるアプローチを放棄してしまうのは、非常に残念なことです。
 
 Differences of opinion often boil down to a mismatch in priorities. At its heart, the progressive enhancement approach prioritises the needs of people, regardless of their technology. Tools, frameworks, and code libraries, on the other hand, are often built to prioritise the needs of designers and developers. That's not a bad thing. Developer convenience is hugely valuable. But speaking personally, I think that user needs should trump developer convenience.
 
-When I'm confronted with a problem, and I have the choice of making it the user's problem or my problem, I'll make it my problem every time. That's my job.
+ある問題に直面したとき、それをユーザー側の問題とするか、私の問題とするか選択できる場合、私は常に後者を選びます。それが私の仕事です。
 
-###Future friendly
+### 未来に優しく
 
-In September of 2011, I was speaking at a conference in Tennessee along with some people much smarter than me. Once the official event was done, we lit out for the countryside where we had rented a house for a few days. We were gathering together to try to figure out where the web was headed.
+2011年9月のこと。私よりずっと賢い人々に混じって、テネシー州で催されたとあるカンファレンスで、私は講演をしました。終了後、私たちは田舎に借りた家へ向かい、数日を共にしました。私たちはWebの方向性を探るべく集まったのです。
 
-We were, frankly, freaked out. The proliferation of mobile devices had changed everything. Tablets were on the rise. People were talking about internet TVs. We were hoping to figure out what the next big thing would be. Internet-enabled fridges, perhaps?
+率直に言って、私たちはパニックになりました。モバイル機器の普及が、すべてを変えてしまったのです。タブレット端末が台頭しました。インターネットテレビの話も出ました。私たちは次の大きなトレンドが何か、知りたいと思っていました。果たしてそれは、インターネット対応の冷蔵庫でしょうか？
 
-In the end, the only thing we could be certain of was uncertainty:
+結局、私たちが確信できたのは不確実性だけでした：
 
-> Disruption will only accelerate. The quantity and diversity of connected devices—many of which we haven't imagined yet—will explode, as will the quantity and diversity of the people around the world who use them.
+> 混乱は加速するばかりです。Webにアクセスするのに用いられるデバイス、それも今はまだ想像もつかないようなデバイスの量や多様性は爆発的に増加するでしょう。同時に、そうしたデバイスを利用する人の数と多様性もまた、世界中で増すことでしょう。
 
-That isn't cause for despair; it's cause for celebration. We could either fight this future or embrace it. Realising that it was impossible to be future-proof, we instead resolved to be future-friendly:
+それは絶望ではなく、希望の源でもあります。私たちは未来に抗うことも、受け入れることもできます。未来に対して完璧に備えるのは不可能であることを踏まえたうえで、私たちは未来に優しい存在になることを決意しました：
 
-1. Acknowledge and embrace unpredictability.
-2. Think and behave in a future-friendly way.
-3. Help others do the same.
+1. 予測できないことを認め、受け入れよう
+2. 未来に優しい方法で思考し、振る舞おう
+3. 他の人が同じようにする手助けをしよう
 
-That first step is the most important: acknowledging and embracing unpredictability. That is the driving force behind resilient web design. The best way to be future-friendly is to be backwards-compatible.
+最初のステップが最も重要です。予測できないことを認め、受け入れること。それがレジリエントなWebデザインの原動力となります。未来に優しい最良のデザインとは、後方互換性のあるデザインです。
 
-###前提
+### 前提
 
 Douglas Adamsの著書『Hitchhiker's Guide To The Galaxy（邦題：銀河ヒッチハイク・ガイド）』のなかで、哲学者たちは叫びました。「我々は疑心暗鬼を厳格に定義することを求める！」
 
@@ -119,7 +119,7 @@ Douglas Adamsの著書『Hitchhiker's Guide To The Galaxy（邦題：銀河ヒ�
 
 > どれだけ満足感や安心感が得られようとも、妄想に固執するより宇宙をありのままに把握したほうが、はるかに素晴らしいことです。
 
-##未来
+## 未来
 
 未来を予測できたらいいのにと思いますが、確実に予測できるのはただひとつ、物事は変化し続けるということだけです。
 
