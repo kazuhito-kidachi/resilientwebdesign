@@ -1,46 +1,46 @@
 # 第2章：道具
 
-At the risk of teaching grandmother to suck eggs, I'd like you to think about what happens when a browser parses an HTML element. Take, for example, a paragraph element with some text inside it. There's an opening P tag, a closing P tag, and between those tags, there's the text.
+釈迦に説法かもしれませんが、ブラウザがHTML要素を解析するときに何が起こるか、考えてみて欲しいと思います。例えば、テキストを含んだ段落要素について考えてみましょう。p要素の開始タグと終了タグがあり、それらのあいだにテキストがあります。
 
-	<p>some text</p>
+	<p>テキスト</p>
 
-A web browser encountering this element will display the text between the opening and closing tags. Now consider what happens when that same web browser encounters an element it doesn't recognise.
+この要素を見つけたブラウザは、開始タグと終了タグのあいだにあるテキストを表示します。次に、同じブラウザが認識できない要素に遭遇したとき、何が起こるかを考えてみましょう。
 
-	<marklar>some more text</marklar>
+	<marklar>もう少し長いテキスト</marklar>
 
-Once again, the browser displays the text between the opening and closing tags. What's interesting here is what the browser doesn't do. The browser does not throw an error. The browser does not stop parsing the HTML at this point, refusing to go any further. Instead, it simply ignores the tags and displays the content within.
+この場合も、ブラウザは開始タグと終了タグのあいだのテキストを表示します。ここで興味深いのは、ブラウザが何もしないことです。ブラウザはエラーを出しません。ブラウザは、この要素に出くわした時点でHTMLの解析を止めたり、そこから先の処理を拒否したりしません。ただ単にタグを無視して、含まれているコンテンツを表示します。
 
-This liberal attitude to errors allowed the vocabulary of HTML to grow over time from the original 21 elements to the 121 elements in HTML5. Whenever a new element is introduced to HTML, we know exactly how older browsers will treat it; they will ignore the tags and display the content.
+エラーに対するこのような寛大な姿勢により、HTMLの語彙は当初の21要素からHTML5の121要素へと成長していきました。HTMLに新しい要素が定義されても、古いブラウザがそれをどのように扱うか、私たちはよく知っているのです。ブラウザはタグを無視して中身を表示します。
 
-That's a remarkably powerful feature. It allows browsers to implement new HTML features at different rates. We don't have to wait for every browser to recognise a new element. Instead we can start using the new element at any time, secure in the knowledge than non-supporting browsers won't choke on it.
+これは非常に強力な機能です。この機能により、ブラウザはHTMLの新たな機能をそれぞれのスピードで実装することができます。すべてのブラウザが新しい要素を認識できるのを待つ必要はありません。その代わり、私たちは新しい要素をいつでも使い始めることができますし、サポートしていないブラウザがその要素で喉を詰まらせることはないと確信することができます。
 
-	<main>this text will display in any browser</main>
+	<main>どのブラウザでも表示されるであろうテキスト</main>
 
-If web browsers treat all tags the same way—displaying their contents—then what's the point of having a vocabulary of elements in HTML?
+ブラウザがすべてのタグを同じように扱い、つまりそのコンテンツを表示するのなら、要素という語彙をHTMLで定める意味はあるでしょうか？
 
-##The meaning of markup
+## マークアップの意味
 
-Some HTML elements are literally meaningless. The SPAN element says nothing about the contents within it. As far as a web browser is concerned, you may as well use a non-existent MARKLAR element. But that's the exception. Most HTML elements exist for a reason. They have been created and agreed upon in order to account for specific situations that authors like you and I are likely to encounter.
+HTMLの要素の中には、文字通り意味を持たないものがあります。span要素は、コンテンツについて何一つ語りません。ブラウザの処理した結果に限れば、存在しないmarklar要素を使うのと同じかもしれません。しかし、これは例外です。ほとんどのHTML要素には、存在するための理由があります。それらは、あなたや私のような制作者が遭遇する可能性のある特定の状況を考慮して定義され、かつ合意されているのです。
 
-There are obviously special elements, like the A element, that come bundled with superpowers. In the case of the A element, its superpower lies in the HREF attribute that allows us to link out to any other resource on the web. Other elements like INPUT, SELECT, TEXTAREA, and BUTTON have their own superpowers, allowing people to enter data and submit it to a web server.
+a要素のように、超能力を備えた特別な要素も、当然あります。a要素の場合、その超能力はhref属性に由来し、Web上のあらゆるリソースにリンクすることができます。inputやselect、textarea、buttonといった他の要素にも、それぞれに超能力があって、入力されたデータをサーバーに送信することができます。
 
-Then there are elements that describe the kind of content they contain. The contents of a P element should be considered a paragraph of text. The contents of an LI element should be considered as an item in a list. Browsers display the contents of these elements with some visual hints as to their meaning. Paragraphs are displayed with whitespace before and after their content. List items are displayed with bullet points or numbers before their content.
+そして、含まれるコンテンツの種類をあらわす要素があります。p要素の内容は、テキストの段落と見なされます。li要素の内容は、リストのいち項目と考えてください。ブラウザは要素の内容を、それらの意味を示唆する視覚的なヒントとともに表示します。段落は、コンテンツの前後に空白が表示されます。リストの項目では、内容の前に箇条書きのための点や数字が表示されます。
 
-The early growth of HTML's vocabulary was filled with new elements that provided visual instructions to web browsers: BIG, SMALL, CENTER, FONT. In fact, the visual instructions were the only reason for those elements to exist—they provided no hint as to the *meaning* of the content they contained. HTML was in danger of becoming a visual instruction language instead of a vocabulary of meaning.
+HTMLの語彙が増加し始めた当初はbigやsmall、center、font要素など、ブラウザに対して視覚的な指示を与える要素がたくさんありました。実際、視覚的な指示は、それらの要素が存在する唯一の理由であり、含んでいるコンテンツの*意味*については情報を提供しませんでした。HTMLは、意味をあらわす語彙を提供するのではなく、視覚的な指示を出すための言語になってしまう危険性があったのです。
 
-##A matter of style
+## スタイルの問題
 
-Håkon Wium Lie was working at CERN at the same time as Tim Berners-Lee. He immediately recognised the potential of the World Wide Web and its language, HTML. He also realised that the expressive power of the language was in danger of being swamped by visual features. Lie proposed a new format to describe the presentation of HTML documents: Cascading Style Sheets.
+Håkon Wium Lieは、Tim Berners-Leeと同じ時期にCERNで働いていました。彼は、World Wide WebとHTMLの可能性にすぐ気づきました。その一方で、HTMLの意味的な能力が、視覚的な機能に埋もれてしまう危険性があることに気づいてもいました。Lieは、HTML文書の視覚的な表現を記述するための新しいフォーマットを提案しました。Cascading Style Sheets（CSS）のことです。
 
-He was quickly joined by the Dutch programmer Bert Bos. Together they set about creating a syntax that would be powerful enough to handle the demands of designers, while remaining simple enough to learn quickly. They succeeded.
+ほどなくオランダ人のプログラマー、Bert Bosが加わりました。二人は、デザイナーの要求に応えられるほどパワフルで、すぐに覚えられるほどシンプルな構文の開発に着手し、そして成功しました。
 
-Think for a moment of all the sites out there on the web. There's a huge variation in visual style: colour schemes, typographic treatments, textures and layouts. All of that variety is made possible by one simple pattern that describes all the CSS ever written:
+Web上のあらゆるサイトを思い浮かべてみてください。配色、タイポグラフィ、テクスチャー、レイアウトなど、見た目のスタイルは実にさまざまです。このような多様性を可能にしているのは、これまでに書かれたすべてのCSSをつかさどる、ただ一つのシンプルなパターンです：
 
-	selector {
-		property: value;
+	セレクタ {
+		プロパティ: 値;
 	}
 
-That's it.
+たったこれだけです。
 
 CSS shares HTML's forgiving attitude to errors. If a web browser encounters a selector it doesn't understand, it simply skips over whatever is between that selector's curly braces. If a browser sees a property or a value it doesn't understand, it just ignores that particular declaration. The browser does not throw an error. The browser does not stop parsing the CSS at this point, refusing to go any further.
 
