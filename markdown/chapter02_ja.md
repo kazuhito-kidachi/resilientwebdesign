@@ -42,43 +42,43 @@ Web上のあらゆるサイトを思い浮かべてみてください。配色�
 
 たったこれだけです。
 
-CSS shares HTML's forgiving attitude to errors. If a web browser encounters a selector it doesn't understand, it simply skips over whatever is between that selector's curly braces. If a browser sees a property or a value it doesn't understand, it just ignores that particular declaration. The browser does not throw an error. The browser does not stop parsing the CSS at this point, refusing to go any further.
+CSSはHTMLと同様、エラーに寛容です。Webブラウザが理解できないセレクタに遭遇した場合、そのセレクタの中括弧のあいだにある中身を単純にスキップします。ブラウザは、理解できないプロパティや値があっても、その宣言を無視します。ブラウザはエラーを出力しません。その時点でCSSの解析を止め、以降の処理を拒否するようなことは無いのです。
 
 	marklar {
 		marklar: marklar;
 	}
 
-Just as with HTML, this loose error-handling has allowed CSS to grow over time. New selectors, new properties, and new values have been added to the language's vocabulary over the years. Whenever a new feature lands in CSS, designers and developers know that they can safely use it, even if it isn't yet widely supported in browsers. They can rest assured that old browsers will react to new features with complete indifference.
+HTMLと同様、この緩いエラー処理のおかげで、CSSは時がたつにつれ成長してきました。新しいセレクタ、新しいプロパティ、そして新しい値が、長年にわたり語彙に追加されてきました。CSSに新しい機能が追加されるたびに、デザイナーや開発者は、それがまだブラウザで広くサポートされていなくても、安全に使用できることを知っています。古いブラウザは新機能にはまったく無反応ですから、安心です。
 
-Just because a language is elegant and well-designed doesn't mean that people will use it. CSS arrived later than HTML. Designers didn't spend the intervening years waiting patiently for a way to style their documents on the web. They used what was available to them.
+エレガントで適切に設計された言語だからといって、人々がそれを使うとは限りません。CSSはHTMLよりも後になって登場しました。それまでのあいだ、デザイナーはWeb上の文書にスタイル付けする方法をじっと待っていたわけではありません。利用できるものは利用したのです。
 
-###Killing it
+### ヤバいテクニック
 
-In 1996 David Siegel published a book entitled _Creating Killer Websites_. In it, he outlined a series of ingenious techniques for wrangling eye-catching designs out of the raw material of HTML.
+1996年、David Siegelは『_Creating Killer Web Sites_』という本を出版しました。同書では、HTMLという素材から人目を引くデザインを生み出すための、一連の独創的なテクニックが紹介されています。
 
-One technique involved using a transparent GIF, just one pixel by one pixel in size. If this was inserted into a page as an IMG element, but given precise values in its <code>width</code> and <code>height</code> attributes, designers could control the amount of whitespace in their designs.
+そのなかには、縦横1ピクセル四方の大きさの透明なGIF画像を使用するテクニックがありました。それをimg要素としてページ内に挿入し、<code>width</code>および<code>height</code>属性で正確な数値を指定することで、デザイナーはデザイン上の余白の量をコントロールすることができました。
 
-Another technique used the TABLE element. This element—along with its children TR and TD—was intended to describe tabular data. But with the right values applied to the widths and heights of table cells, it could be used to recreate just about any desired layout.
+別のテクニックとして、table要素を使うものがありました。この要素は、その子要素であるtr要素やtd要素とともに、表形式のデータを記述することを目的としています。しかし、セルの幅と高さに適切な値を指定することで、お望みのレイアウトならどんなものでも再現するのに用いることができました。
 
-These were hacks; clever solutions to tricky problems. But they had unfortunate consequences. Designers were treating HTML as a tool for the appearance of content instead of a language for describing the meaning of content. CSS was a solution to this problem, if only designers could be convinced to use it.
+これらはハックであり、厄介な問題に対する巧妙な解決策でした。しかし、それは残念な結果をもたらしました。デザイナーは、HTMLをコンテンツの意味を記述するための言語ではなく、コンテンツの外観を整えるためのツールとして扱っていたのです。CSSは、デザイナーが納得して使うことさえできれば、そうした課題に対する解決策でした。
 
-###ブラウザ戦争
+### ブラウザ戦争
 
 WebデザイナーがCSSを使わなかった理由のひとつに、ブラウザのサポート不足がありました。かつて2つのメジャーなブラウザが、Webの主導権を争っていました。Microsoft Internet ExplorerとNetscape Navigatorです。両者はデザイン的に相容れない存在でした。一方のブラウザが、新しい要素や属性を作ったとします。するともう一方のブラウザは、まったく同じ目的において、異なる独自の要素や属性を作ったのです。
 
-Perhaps the thinking behind this strategy was that web designers would have to choose which proprietary features they were going to get behind, like children being forced to choose between parents. In reality web designers had little choice but to write for both browsers which meant doing the twice the work.
+この戦略の背景には、両親のどちらかを選ぶよう迫られた子供のように、Webデザイナーはどちらか一方のプロプライエタリな機能を支持せざるを得なくなる、という思惑があったのでしょう。しかし実際には、Webデザイナーは両方のブラウザ用に制作するほかなく、それは2倍の仕事量を意味します。
 
-A group of web designers decided enough was enough. They gathered together under the banner of the Web Standards Project and began lobbying Microsoft and Netscape to abandon their proprietary ways and adopt standards such as CSS.
+あるWebデザイナーのグループは、もううんざりだと感じました。彼らはWeb Standards Projectの旗のもとに集まり、MicrosoftとNetscapeに対し独自の機能拡張を捨て、CSSをはじめとする標準に準拠するように働きかけ始めました。
 
-The tide began to turn with the launch of Internet Explorer 5 for the Mac, a browser that shipped with impressive CSS support. If this was the future of web design, life was about to get a lot more productive and creative.
+流れが変わり始めたのは、CSSのサポートに優れたMac版のInternet Explorer 5が登場してからでした。CSSこそWebデザインの未来だとすれば、人生における生産性と創造性は格段に向上することになります。
 
-Some forward-thinking web designers caught the CSS bug early. They redesigned their websites using CSS for layout instead of using TABLEs and spacer GIFs. True to the founding spirit of the web, they shared what they were learning and encouraged others to make the switch to CSS.
+先進的なWebデザイナーのなかには、早い時期にCSSに注目した人もいました。彼らは、table要素や余白のためのGIF画像を使う代わりに、CSSを使ってWebサイトのデザインを変更しました。Webの創世記の精神に則り、彼らは学んだことを共有し、CSSへの移行を他の人々に促しました。
 
-Perhaps the best demonstration of the power of CSS was a website called the CSS Zen Garden, created by Dave Shea. It was a showcase of beautiful and varied designs, all of them accomplished with CSS. Crucially, the HTML remained the same.
+CSSの能力を最もよく表現していたのは、Dave Shea氏が制作したCSS Zen GardenというWebサイトでしょう。このサイトでは、美しく多様なデザインが紹介されていますが、そのすべてがCSSで実現されています。重要なのは、それらのHTMLが同一であることです。
 
-Seeing the same HTML document styled in a multitude of different ways drove home one of the beneficial effects of CSS: separation of concerns.
+同じHTML文書が、さまざまにスタイル付けされているのを目にすることで、CSSの効能のひとつである関心の分離を実感することができました。
 
-###Coupling
+### Coupling
 
 In any system, from urban infrastructure to a computer programme, the designers of that system can choose the degree to which the pieces of the system depend on one another. In a tightly-coupled system, every piece depends on every piece. In a loosely-coupled system, all the pieces are independent, with little to no knowledge of the other pieces.
 
@@ -90,7 +90,7 @@ The hacks pioneered by David Siegel tightly coupled structure and presentation i
 
 The style sheet still needs to have some knowledge of the HTML document's structure. Quite often, "hooks" are added into the markup to make it easier to style: specific values of <code>class</code> or <code>id</code> attributes, for example. So HTML and CSS aren't completely decoupled. They form a partnership but they also have an arrangement. The markup document might decide that it wants to try seeing other style sheets sometimes. Meanwhile, the style sheet could potentially be applied to other documents. They are loosely coupled.
 
-##Dancing about architecture
+## Dancing about architecture
 
 It takes time for a discipline to develop its own design values. Web design is a young discipline indeed. While we slowly begin to form our own set of guiding principles, we can look to other disciplines for inspiration.
 
