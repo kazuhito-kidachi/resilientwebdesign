@@ -78,32 +78,32 @@ CSSの能力を最もよく表現していたのは、Dave Shea氏が制作し�
 
 同じHTML文書が、さまざまにスタイル付けされているのを目にすることで、CSSの効能のひとつである関心の分離を実感することができました。
 
-### Coupling
+### 結合度
 
-In any system, from urban infrastructure to a computer programme, the designers of that system can choose the degree to which the pieces of the system depend on one another. In a tightly-coupled system, every piece depends on every piece. In a loosely-coupled system, all the pieces are independent, with little to no knowledge of the other pieces.
+都市インフラからコンピュータプログラムに至るまで、どのようなシステムであれ、その設計者は各部が互いに依存する度合いを選ぶことができます。密結合のシステムでは、あらゆる部分が相互に依存しています。疎結合のシステムでは、すべての部分が独立しており、ほかの部分についてほとんど関知しません。
 
-In a tightly-coupled system, each part of the system can make assumptions about the other parts. These systems can be designed quite quickly, but at a price. They lack resilience. If one piece fails, it could take the whole system with it.
+密結合のシステムにおいて、各部は他の部分について仮定をすることができます。そのようなシステムは、非常に迅速に設計することができますが、代償は大きなものです。それはレジリエンスの欠如です。部品が1つでも故障すれば、システム全体が壊れてしまう可能性があります。
 
-Designing a loosely-coupled system can take more work. The payoff is that the overall result is more resilient to failure. Individual parts of the system can be swapped out with a minimum of knock-on effects.
+疎結合のシステムを設計するには、より多くの作業を要します。しかし、その代償として、システム全体の障害に対する耐久性が向上します。システム個々のパーツを交換しても、その影響は最小限に抑えられます。
 
-The hacks pioneered by David Siegel tightly coupled structure and presentation into a single monolithic HTML file. The adoption of CSS eased this dependency, bringing the web closer to the modular approach of the UNIX philosophy. The presentational information could be moved into a separate file: a style sheet. That's how a single HTML document at the CSS Zen Garden could have so many different designs applied to it.
+David Siegel氏の開発したハックは、構造と表示を単一のモノリシックなHTMLファイルに密結合していました。CSSの採用により、その依存関係が緩和され、WebはUNIX哲学のモジュラーアプローチに近づきました。表示に関する情報は、スタイルシートという別のファイルに移すことができたのです。それこそは、CSS Zen Gardenで単一のHTML文書に数多くのさまざまなデザインを施すことができた理由です。
 
-The style sheet still needs to have some knowledge of the HTML document's structure. Quite often, "hooks" are added into the markup to make it easier to style: specific values of <code>class</code> or <code>id</code> attributes, for example. So HTML and CSS aren't completely decoupled. They form a partnership but they also have an arrangement. The markup document might decide that it wants to try seeing other style sheets sometimes. Meanwhile, the style sheet could potentially be applied to other documents. They are loosely coupled.
+それでもなおスタイルシートは、HTML文書の構造についてある程度の知識を必要とします。例えば、<code>class</code>属性や<code>id</code>属性で特定の値を指定するといった、スタイル付けを容易にするための「フック」としてのマークアップが、しばしば付け加えられるのです。つまり、HTMLとCSSは完全に切り離されているわけではないのです。両者は、一種のパートナーシップを結んでいますが、同時に取り決めもしています。HTML文書は時々、ほかのスタイルシートを参照しようとするかもしれません。いっぽう、そのスタイルシートは他のHTML文書に適用できる可能性があります。両者はゆるやかに結合しています。
 
-## Dancing about architecture
+## マテリアルオネスティ
 
-It takes time for a discipline to develop its own design values. Web design is a young discipline indeed. While we slowly begin to form our own set of guiding principles, we can look to other disciplines for inspiration.
+ある専門分野が固有のデザイン価値を生み出すには、時間を要します。Webデザインはまさに、歴史の浅い分野です。分野独自の指針となる原則を私たちが徐々に形成するいっぽう、他の分野からインスピレーションを得ることもできます。
 
-The world of architecture has accrued its own set of design values over the years. One of those values is the principle of material honesty. One material should not be used a substitute for another. Otherwise the end result is deceptive.
+建築の世界では、長年にわたり独自のデザイン価値が蓄積されてきました。その価値のひとつに、「マテリアルオネスティ」​があります。あるマテリアル（素材）を、他のマテリアルの代わりに用いてはいけない。そうしないと、結果的に偽物になってしまうからです。
 
-Using TABLEs for layout is materially dishonest. The TABLE element is intended for marking up the structure of tabular data. The end result of using TABLEs, FONT elements, and spacer GIFs is a façade. At first glance everything looks fine, but it won't stand up to scrutiny. As soon as such a website is stress-tested by actual usage across a range of browsers, the façade crumbles.
+table要素をレイアウトに使用することは、マテリアル的に不誠実でしょう。table要素は、表形式のデータの構造をマークアップするためのもの。table要素やfont要素、スペーサーGIFを用いた最終的な結果は、ファサード（見せかけ）です。一見するとすべてがうまくいっているように見えますが、精査には耐えられません。そのようなWebサイトが、さまざまなブラウザで実際に使用されるストレステストを受けた途端、見せかけは崩れ去るのです。
 
-Using CSS for presentation is materially honest—that's the intended use of CSS. It also allows HTML to be materially honest. Instead of trying to fulfil two roles—structure and presentation—HTML can return to fulfilling its true purpose, marking up the meaning of content.
+CSSを表示に使用することは、マテリアル的に誠実であり、それこそCSSの意図された使い方です。またCSSを使うことで、HTMLをマテリアル的に誠実にすることもできます。HTMLは、構造と表示という2つの役割を果たそうとするのではなく、コンテンツの意味をマークアップするという本来の目的を果たすことができるのです。
 
-It's still possible to use (or abuse) CSS to be materially dishonest. For the longest time, there was no easy way to add rounded corners to an element using CSS. Instead, web designers found ways to hack around the problem, putting background images on the element to simulate the same end effect. It worked up to a point, but just like the spacer GIF hack, it was a façade. Then the <code>border-radius</code> property arrived. Now designers can have their rounded corners in a materially honest way.
+CSSを使って（あるいは悪用して）、マテリアル的に不誠実なことをすることは、それでも可能です。長いあいだ、CSSを使って要素の角を丸くする簡単な方法はありませんでした。代わりに、Webデザイナーはこの問題を回避する方法として、背景画像を配置し同じ効果を模擬するやり方を発見しました。それである程度はうまくいきましたが、スペーサーGIFのハックと同様、それはファサードでした。やがて、<code>border-radius</code>というプロパティが登場しました。これでデザイナーは、マテリアル的に誠実なやり方で、角を丸くすることができるようになったのです。
 
-Crucially, designers were able to use new properties like <code>border-radius</code> long before every web browser supported them. That's all thanks to the liberal error-handling model of CSS. Newer browsers would display the rounded corners. Older browsers would not throw an error. Older browsers would not stop parsing the CSS and refuse to parse any further. They would simply ignore the instructions they didn't understand and move on. No harm, no foul.
+重要なのは、<code>border-radius</code>のような新しいプロパティを、デザイナーはすべてのWebブラウザがサポートするよりずっと前から使用できたことです。これは、CSSの寛大なエラー処理モデルのおかげです。新しいブラウザは角丸を表示します。古いブラウザは、エラーを出力しません。古いブラウザは、CSSの解析を止め、それ以上の解析を拒むこともしませんでした。理解できない指示は無視して、先に進むだけです。害もなければ、不正もありません。
 
-Of course this means that the resulting website will look different in different browsers. Some people will see rounded corners. Others won't.
+もちろんこれは、完成したWebサイトの見え方がブラウザによって異なることを意味します。角が丸く見える人もいれば、そう見えない人もいるでしょう。
 
-And that's okay.
+それで問題ありません。
